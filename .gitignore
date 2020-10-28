@@ -1,7 +1,11 @@
 # Aulas #
 #########
 *.mp4
+*.description
 *.pdf
+
+# Aulas #
+#########
 libmemd.a
 *.mem
 
