@@ -1,0 +1,27 @@
+MAC0122 - Lista 1 - Recursão
+
+Escreva uma função recursiva com protótipo
+int soma (int n, int v[]);
+que recebe um inteiro n e um vetor v com n números inteiros, e devolve a soma dos n números no vetor v.
+
+Escreva uma função recursiva com protótipo
+int conta (int n, int v[], int x);
+que recebe um inteiro n, um vetor v com n números inteiros e um inteiro x, e devolve o número de vezes que x ocorre no vetor v.
+
+Considere as declarações
+#define FALSE 0
+#define TRUE  1
+Escreva uma função recursiva com protótipo
+int crescente (int n, int v[]);
+que recebe um inteiro n e um vetor v com n números inteiros, e devolve TRUE se o vetor v está em ordem crescente e FALSE caso contrário.
+
+Escreva uma função recursiva com protótipo
+void remove (int *n, int v[], int x);
+que recebe um inteiro *n, um vetor v com *n números inteiros e um inteiro x, e remove todas as cópias de x do vetor v, ajustando o valor de *n de acordo.
+
+Escreva uma função recursiva com protótipo
+void ordena (int n, int v[]);
+que recebe um inteiro n e um vetor v com n números inteiros, e ordena o vetor v.
+Para tanto, siga uma das seguintes sugestões:
+Selection sort: ache o maior elemento do vetor e coloque-o na última posição; repita o processo ignorando esse último elemento.
+Insertion sort: ordene o vetor ignorando o último elemento, depois coloque o último elemento na posição correta.

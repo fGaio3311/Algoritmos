@@ -1,0 +1,315 @@
+<< /PageSize [595 842] >> setpagedevice
+595 290.000 sub 2 div 842 290.000 sub 2 div moveto
+
+10.741 0
+10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate
+
+10.741 0
+10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate
+
+10.741 0
+10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate
+
+10.741 0
+10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate -90 rotate 10.741 0
+2 1 roll dup dup dup dup 7 -1 roll dup dup dup dup 9 1 roll 7 1 roll 5 1 roll 3 1 roll
+rlineto -90 rotate rlineto 90 rotate rlineto 90 rotate rlineto -90 rotate rlineto
+-90 rotate 90 rotate 90 rotate -90 rotate 
+stroke
