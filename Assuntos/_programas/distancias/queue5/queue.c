@@ -4,13 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "item.h"
-
 static void *mallocSafe (unsigned int n);
 
 /*
  * FILA: uma implementacao com lista encadeada sem cabeca
  */
+
+/* item.h */
+typedef int Item;
 
 typedef struct queueNode* Link;
 struct queueNode { 
@@ -18,8 +19,8 @@ struct queueNode {
   Link prox; 
 };
 
-struct queue { /* aqui esta especificado o que e' */
-  Link inicio; /* uma fila: dois apontadores para struct queueNode */
+struct queue { 
+  Link inicio;
   Link fim;    
 }; 
 
@@ -29,8 +30,8 @@ static Link new(Item conteudo, Link prox) {
   Link x = (Link) mallocSafe(sizeof *x);
   x->conteudo = conteudo; x->prox = prox;     
   return x;                         
-}     
-                              
+}
+
 Queue queueInit(int maxN) { 
   Queue q = (Queue) mallocSafe(sizeof *q); 
   q->inicio = NULL; 
@@ -78,4 +79,30 @@ static void *mallocSafe (unsigned int n) {
     exit (-1);
   }
   return p;
+}
+
+int main()
+{
+  Queue a;
+  a = queueInit(5);
+
+  Item *teste;
+
+  teste = mallocSafe(2*sizeof(int));
+  
+  teste[0] = 1;
+  teste[1] = 3;
+
+  queuePut(a, teste);
+
+  teste[0] = 7;
+  teste[1] = 2;
+
+  queuePut(a, teste);
+
+  teste = queueGet(a);
+
+  printf("%d %d", teste[0], teste[1]);
+
+  return 0;
 }

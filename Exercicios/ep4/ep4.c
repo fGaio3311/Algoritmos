@@ -35,7 +35,7 @@
 /* PROTÓTIPOS */
 
 void hebert(char **lab, int **cen, int qcen, int *pos, int m, int n);
-int acharCenoura(char **lab, char **posPassos, int *pos);
+int acharCenoura(char **lab, int *pos, int **cen, int qcen, int m, int n);
 void menu();
 
 char **criaMatriz(int m, int n);
@@ -47,6 +47,9 @@ void freeMatrizInt(int **a, int m);
 void cleanLine();
 void readLine(char a[]);
 static void *mallocSafe(unsigned int n);
+
+void addFila(int **fila, int x, int y, int *ini);
+void remFila(int **fila, int *x, int *y, int *fim);
 
 /* --------------------------------- */
 
@@ -133,37 +136,41 @@ int main()
 void hebert(char **lab, int **cen, int qcen, int *pos, int m, int n)
 {
     int i, j;
-    int passos, **posPassos = NULL;
+    int passos;
     char **labFim;
 
     /* Cria matrizes */
     labFim = criaMatriz(m, n);
 
     /* Copia matriz de labirinto */
-    for (i = 0; i < (m+2); i++)
-        for (j = 0; j < (n+2); j++)
+    for (i = 0; i < (m + 2); i++)
+        for (j = 0; j < (n + 2); j++)
             labFim[i][j] = lab[i][j];
 
-    /* Hebert */
-    labFim[pos[0]][pos[1]] = 'H';
+    /* Teste se o coelho não ta em cima da cenoura */
+    passos = 1;
+    for (i = 0; i < qcen && passos != 0; i++)
+    {
+        if (pos[0] == cen[i][0] && pos[1] == cen[i][1])
+            passos = 0;
+    }
 
-    passos = acharCenoura(labFim, posPassos, pos); /* TODO: verificar se não precisa de mais termos */
-
-    /* Passos */
-    for (i = 0; i < passos; i++)
-        labFim[posPassos[i][0]][posPassos[i][1]] = '*';
+    if (passos)
+        passos = acharCenoura(labFim, pos, cen, qcen, m, n);
 
     /* Cenouras */
     for (i = 0; i < qcen; i++)
         labFim[cen[i][0]][cen[i][1]] = 'C';
 
-    if (passos != 0)
+    /* Hebert */
+    labFim[pos[0]][pos[1]] = 'H';
+
+    if (passos != m * n)
         printf("\nO Herbert achou uma cenoura em %d passos!\n\n", passos);
     else
         printf("\nO Herbert nao achou nenhuma cenoura!!! :(\n\n");
 
     printMatriz(labFim, m, n);
-    freeMatrizInt(posPassos, passos);
     freeMatrizChar(labFim, m);
     printf("\n");
 }
@@ -171,17 +178,114 @@ void hebert(char **lab, int **cen, int qcen, int *pos, int m, int n)
 /*  Procura o o caminho com menor número de passos que leva até uma cenoura
     Recebe o labirinto com cenouras e um endereço para criar a matriz do local dos passos
     Devolve o número inteiro de passos */
-int acharCenoura(char **lab, char **posPassos, int *pos)
+int acharCenoura(char **lab, int *pos, int **cen, int qcen, int m, int n)
 {
-    int passos;
-    int i;
+    int i, j;
+    int ncen = 0, passos;
 
-    if (passos > 0)
+    /* Matriz de calculo */
+    int **labCont;
+    int p[2]; /* Posição de estudo */
+
+    /* FILA */
+    int **fila, ini = 0, fim = 0;
+
+    /* Aloca fila */
+    fila = mallocSafe((m * n) * sizeof(int *));
+    for (i = 0; i < m * n; i++)
+        fila[i] = mallocSafe(2 * sizeof(int));
+
+    /* Aloca matriz de calculo */
+    labCont = mallocSafe((m + 2) * sizeof(int *));
+    for (i = 0; i < (m + 2); i++)
+        labCont[i] = mallocSafe((n + 2) * sizeof(int));
+
+    /* Cria Matriz de calculo */
+    for (i = 0; i < (m + 2); i++)
+        for (j = 0; j < (n + 2); j++)
+        {
+            if ((lab[i][j] - '0') == 0)
+                labCont[i][j] = m * n;
+            else
+                labCont[i][j] = -1;
+        }
+
+    /* Posição do hebert */
+    addFila(fila, pos[0], pos[1], &fim);
+    labCont[pos[0]][pos[1]] = 0;
+
+    /* Processa fila */
+    while (ini != fim)
     {
-        posPassos = mallocSafe(passos * sizeof(int *));
-        for (i = 0; i < passos; i++)
-            posPassos[i] = mallocSafe(2 * sizeof(int));
+        remFila(fila, &p[0], &p[1], &ini);
+
+        /* Testa acima, abaixo, esquerda, direita */
+        if (labCont[p[0] - 1][p[1]] > labCont[p[0]][p[1]] + 1 && labCont[p[0] - 1][p[1]] != -1)
+        {
+            labCont[p[0] - 1][p[1]] = labCont[p[0]][p[1]] + 1;
+            addFila(fila, p[0] - 1, p[1], &fim);
+        }
+        if (labCont[p[0] + 1][p[1]] > labCont[p[0]][p[1]] + 1 && labCont[p[0] + 1][p[1]] != -1)
+        {
+            labCont[p[0] + 1][p[1]] = labCont[p[0]][p[1]] + 1;
+            addFila(fila, p[0] + 1, p[1], &fim);
+        }
+        if (labCont[p[0]][p[1] - 1] > labCont[p[0]][p[1]] + 1 && labCont[p[0]][p[1] - 1] != -1)
+        {
+            labCont[p[0]][p[1] - 1] = labCont[p[0]][p[1]] + 1;
+            addFila(fila, p[0], p[1] - 1, &fim);
+        }
+        if (labCont[p[0]][p[1] + 1] > labCont[p[0]][p[1]] + 1 && labCont[p[0]][p[1] + 1] != -1)
+        {
+            labCont[p[0]][p[1] + 1] = labCont[p[0]][p[1]] + 1;
+            addFila(fila, p[0], p[1] + 1, &fim);
+        }
     }
+
+    /* Acha cenoura mais próxima */
+    for (i = 0; i < qcen; i++)
+    {
+        if (labCont[cen[i][0]][cen[i][1]] < labCont[cen[ncen][0]][cen[ncen][1]])
+            ncen = i;
+    }
+
+    /* Registra número de passos */
+    passos = labCont[cen[ncen][0]][cen[ncen][1]];
+
+    /* Caso não for impossível, escreve na matriz os passos até a cenoura */
+    if (passos != m * n)
+    {
+        p[0] = cen[ncen][0];
+        p[1] = cen[ncen][1];
+
+        while (labCont[p[0]][p[1]] != 0)
+        {
+            if (labCont[p[0] - 1][p[1]] == labCont[p[0]][p[1]] - 1)
+            {
+                lab[p[0] - 1][p[1]] = '*';
+                p[0] = p[0] - 1;
+            }
+            else if (labCont[p[0] + 1][p[1]] == labCont[p[0]][p[1]] - 1)
+            {
+                lab[p[0] + 1][p[1]] = '*';
+                p[0] = p[0] + 1;
+            }
+            else if (labCont[p[0]][p[1] - 1] == labCont[p[0]][p[1]] - 1)
+            {
+                lab[p[0]][p[1] - 1] = '*';
+                p[1] = p[1] - 1;
+            }
+            else if (labCont[p[0]][p[1] + 1] == labCont[p[0]][p[1]] - 1)
+            {
+                lab[p[0]][p[1] + 1] = '*';
+                p[1] = p[1] + 1;
+            }
+        }
+    }
+
+    /* Libera matrizes */
+    freeMatrizInt(fila, m * n);
+    freeMatrizInt(labCont, m + 2);
 
     return passos;
 }
@@ -204,9 +308,9 @@ char **criaMatriz(int m, int n)
     int i;
 
     /* Aloca matriz */
-    res = mallocSafe((m+2) * sizeof(char *));
-    for (i = 0; i < (m+2); i++)
-        res[i] = mallocSafe((n+2) * sizeof(char));
+    res = mallocSafe((m + 2) * sizeof(char *));
+    for (i = 0; i < (m + 2); i++)
+        res[i] = mallocSafe((n + 2) * sizeof(char));
 
     return res;
 }
@@ -217,10 +321,10 @@ void leMatriz(FILE *arq, int m, int n, char **res)
     int i, j;
     int num;
     /* Com moldura */
-    for (i = 0; i < m+2; i++)
-        for (j = 0; j < n+2; j++)
+    for (i = 0; i < m + 2; i++)
+        for (j = 0; j < n + 2; j++)
         {
-            if(i == 0 || i == m+1 || j == 0 || j == n+1)
+            if (i == 0 || i == m + 1 || j == 0 || j == n + 1)
                 res[i][j] = '1';
             else
             {
@@ -235,9 +339,9 @@ void printMatriz(char **a, int m, int n)
 {
     int i, j;
     /* Matriz com moldura */
-    for (i = 1; i < m+1; i++)
+    for (i = 1; i < m + 1; i++)
     {
-        for (j = 1; j < n+1; j++)
+        for (j = 1; j < n + 1; j++)
             printf("%c ", a[i][j]);
         printf("\n");
     }
@@ -249,7 +353,7 @@ void freeMatrizChar(char **a, int m)
     int i;
     if (a != NULL)
     {
-        for (i = 0; i < (m+2) && a[i] != NULL; i++)
+        for (i = 0; i < (m + 2) && a[i] != NULL; i++)
         {
             free(a[i]); /* libera a linha i */
             a[i] = NULL;
@@ -304,4 +408,20 @@ static void *mallocSafe(unsigned int n)
     if (p == NULL)
         exit(-1);
     return p;
+}
+
+/* --------------------------------- */
+
+void addFila(int **fila, int x, int y, int *fim)
+{
+    fila[*fim][0] = x;
+    fila[*fim][1] = y;
+    *fim += 1;
+}
+
+void remFila(int **fila, int *x, int *y, int *ini)
+{
+    *x = fila[*ini][0];
+    *y = fila[*ini][1];
+    *ini += 1;
 }
