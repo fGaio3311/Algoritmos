@@ -48,6 +48,8 @@ void cleanLine();
 void readLine(char a[]);
 static void *mallocSafe(unsigned int n);
 
+/* --------------------------------- */
+
 /* MAIN */
 int main()
 {
@@ -121,6 +123,8 @@ int main()
 
     return 0;
 }
+
+/* --------------------------------- */
 
 /* FUNÇÕES */
 
@@ -207,6 +211,7 @@ char **criaMatriz(int m, int n)
     return res;
 }
 
+/* Recebe arquivo e uma matriz, lê o arquivo e guarda na matriz com moldura */
 void leMatriz(FILE *arq, int m, int n, char **res)
 {
     int i, j;
@@ -216,7 +221,7 @@ void leMatriz(FILE *arq, int m, int n, char **res)
         for (j = 0; j < n+2; j++)
         {
             if(i == 0 || i == m+1 || j == 0 || j == n+1)
-                res[i][j] = '+';
+                res[i][j] = '1';
             else
             {
                 fscanf(arq, "%d", &num);
