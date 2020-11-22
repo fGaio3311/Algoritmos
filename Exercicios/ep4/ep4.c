@@ -30,7 +30,10 @@
 #define MAX 256 /* Tamanho do nome do arquivo */
 
 /*  INFO
-    Meu labirinto possui moldura */
+    Meu labirinto possui moldura
+    Usei uma FILA SEM lista ligada, somente com matriz para guardar as posições
+    
+    */
 
 /* PROTÓTIPOS */
 
@@ -118,10 +121,13 @@ int main()
             break;
         }
 
-        printf("\nDigite a posicao inicial do Herbert: ");
-        scanf("%d %d", &pos[0], &pos[1]);
+        if (lab != NULL)
+        {
+            printf("\nDigite a posicao inicial do Herbert: ");
+            scanf("%d %d", &pos[0], &pos[1]);
 
-        hebert(lab, cen, qcen, pos, m, n);
+            hebert(lab, cen, qcen, pos, m, n);
+        }
     }
 
     return 0;
@@ -131,7 +137,7 @@ int main()
 
 /* FUNÇÕES */
 
-/*  Executa o procedimento de achar a cenoura mais próxima do Hebert no labirinto;
+/*  Executa o procedimento de achar a cenoura mais próxima do Hebert no labirinto e imprimi-lô;
     Recebe uma matriz do labirinto, uma matriz com a posição das cenouras, a posição do hebert e o tamanho das matrizes */
 void hebert(char **lab, int **cen, int qcen, int *pos, int m, int n)
 {
@@ -245,7 +251,7 @@ int acharCenoura(char **lab, int *pos, int **cen, int qcen, int m, int n)
     /* Acha cenoura mais próxima */
     for (i = 0; i < qcen; i++)
     {
-        if (labCont[cen[i][0]][cen[i][1]] < labCont[cen[ncen][0]][cen[ncen][1]])
+        if (labCont[cen[i][0]][cen[i][1]] < labCont[cen[ncen][0]][cen[ncen][1]] && labCont[cen[i][0]][cen[i][1]] != -1)
             ncen = i;
     }
 
@@ -412,6 +418,7 @@ static void *mallocSafe(unsigned int n)
 
 /* --------------------------------- */
 
+/* Adiciona item à fila */
 void addFila(int **fila, int x, int y, int *fim)
 {
     fila[*fim][0] = x;
@@ -419,6 +426,7 @@ void addFila(int **fila, int x, int y, int *fim)
     *fim += 1;
 }
 
+/* Remove um item da fila */
 void remFila(int **fila, int *x, int *y, int *ini)
 {
     *x = fila[*ini][0];
